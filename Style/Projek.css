@@ -1,0 +1,228 @@
+
+.container {
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    border-bottom: 2px dashed silver;
+    position: sticky;
+    top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1000;
+}
+
+
+.header .logo{
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+}
+
+.header .logo a:visited {
+    text-decoration: underline;
+}
+
+.header .navigation{
+    float: left;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.header .navigation li a {
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    text-decoration : underline;
+}
+
+
+body {
+    background-color: #FAEBD7;
+    color: #663300;
+}
+
+h1 {
+    position: absolute;
+    text-align: left;
+    left: 30%;
+    font-size: 40pt;
+    top: 100px;
+}
+
+.HH1 {
+    position: absolute;
+    left: 520px;
+    font-size: 30pt;
+    top: 1%;
+}
+
+p {
+    position: absolute;
+    font-size: 24pt;
+}
+
+.PProjekH1 {
+    text-align: left;
+    font-size: 14pt;
+    left: 520px;
+    top: 20%;
+}
+
+.PProjek1 {
+    text-align: left;
+    font-size: 14pt;
+    left: 520px;
+    top: 90px;
+}
+
+.PProjek2 {
+    text-align: left;
+    font-size: 14pt;
+    left: 65%;
+    top: 150px;
+    background-color: #e65200;
+}
+
+.PProjek3 {
+    text-align: left;
+    font-size: 14pt;
+    left: 75%;
+    top: 150px;
+    background-color: #297ae0;
+}
+
+.PProjek4 {
+    text-align: left;
+    font-size: 14pt;
+    left: 82%;
+    top: 150px;
+    background-color: #DAA520;
+}
+
+.PProjekOPL {
+    text-align: left;
+    font-size: 17pt;
+    left: 520px;
+    top: 200px;
+    font-style: italic;
+}
+
+.PProjekOPL :hover {
+    text-decoration: underline;
+}
+
+.PProjekSCL {
+    text-align: left;
+    font-size: 17pt;
+    left: 660px;
+    top: 200px;
+    font-style: italic;
+}
+
+.PProjekSCL :hover {
+    text-decoration: underline;
+}
+
+img {
+    position: absolute;
+    width: 60%;
+    height: auto;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #663300;
+    border: none;
+    color: orange;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    padding : 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn :active {
+    background-color: red;
+}
+
+.btn :hover{
+    box-shadow: 0 12px 16px yellow,0 17px 50px yellow;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Rbtn {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    cursor: pointer;
+    align-items:flex-start;
+    justify-content : center;
+    color: orange;
+}
+
+i {
+    transform: translate(-50%,-50%);
+}
+
+.Pwaktu {
+    font-style:italic;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.BProjek {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    border: 2px dashed gray;
+    top: 25%;
+    left: 30%;
+}
+
+.GProjek1 {
+    top: 30px;
+    left: 10px;
+    transition: transform.2s;
+}
+
+img:hover {
+    transform: scale(1.5,1.5);
+}

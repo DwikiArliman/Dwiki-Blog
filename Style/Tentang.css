@@ -1,0 +1,256 @@
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    border-bottom: 2px dashed silver;
+    position: sticky;
+    top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1000;
+}
+
+.header .logo{
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+}
+
+.header .logo a:visited {
+    text-decoration: underline;
+}
+
+.header .navigation{
+    float: left;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.header .navigation li a {
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    text-decoration : underline;
+}
+
+
+body {
+    background-color: #FAEBD7;
+    color: #663300;
+}
+
+h1 {
+    position: sticky;
+    text-align:center;
+    font-size: 50px;
+}
+
+p {
+    position: absolute;
+}
+
+.Pwaktu {
+    font-style:italic;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.Pinsta {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 31%;
+    left: 11%;
+}
+
+.PLinked {
+    position: absolute;
+    text-align: center;
+    font-size:30px;
+    top: 45%;
+    left: 11%;
+}
+
+.PGithub {
+    position :absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 58%;
+    left: 11%;
+}
+
+.PSpotify {
+    position : absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 74%;
+    left: 11%;
+}
+
+.PSM1 {
+    text-align: left;
+    position: sticky;
+    top: 2vh;
+    left: 2vw;
+    font-size: 22px;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+.PSM2 {
+    text-align: left;
+    position: sticky;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.PSM3 {
+    text-align: left;
+    position: sticky;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.Contact {
+    text-align: center;
+    position: sticky;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+.GBass {
+    position: sticky;
+    width: 10%;
+    height: auto;
+    margin-left: 45%;
+    transition: transform.2s;
+    border-radius: 50%;
+}
+
+.gambar1 {
+    display: flex;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+.gambar2 {
+    display: flex;
+    margin-left: 37%;
+    margin-top: 1px;
+}
+
+.Ginsta {
+    position: sticky;
+    transition: transform.2s ;
+}
+
+.Glinked {
+    position:sticky;
+    transition: transform.2s;
+    margin-left: 30%;
+    width: 145px;
+}
+
+.GSteam {
+    position: sticky;
+    transition: transform.2s;
+    margin-left: 100%;
+}
+
+.GFacebook {
+    position: sticky;
+    transition: transform.2s;
+    margin-left: 55%;
+    margin-top: 19px;
+}
+
+.GGithub {
+    position: sticky;
+    transition: transform.2s;
+    margin-left: 125%;
+    margin-top: 16px;
+    width: 90px;
+}
+
+.GSpotify {
+    position: sticky;
+    transition: transform.2s;
+    width: 120px;
+}
+
+
+img:hover {
+    transform: scale(1.5,1.5);
+}
+
+.Rbtn {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    cursor: pointer;
+    align-items:flex-start;
+    justify-content : center;
+    color: orange;
+}
+
+button {
+    background-color: #663300;
+    border: none;
+    color: orange;
+    cursor: pointer;
+}
+
+.btn :active {
+    background-color: red;
+}
+
+.btn :hover{
+    box-shadow: 0 12px 16px yellow,0 17px 50px yellow;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+i {
+    transform: translate(-50%,-50%);
+}
+
